@@ -1729,10 +1729,8 @@ h6 {
     }
 
     100% {
-        transform: translateX(calc(-50% - 40px));
+        transform: translateX(calc(-25% - 20px));
     }
-
-    /* 40px is half gap */
 }
 
 @media (max-width: 768px) {
@@ -1752,7 +1750,7 @@ h6 {
         }
 
         100% {
-            transform: translateX(calc(-50% - 25px));
+            transform: translateX(calc(-25% - 12.5px));
         }
     }
 }
